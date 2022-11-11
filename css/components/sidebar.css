@@ -1,0 +1,8 @@
+@import url(../default/vars.css);
+
+.list-icons__icon {
+  border-radius: 50%;
+  background-color: var(--color-comment-dark);
+  height: 200px;
+  width: 200px;
+}
