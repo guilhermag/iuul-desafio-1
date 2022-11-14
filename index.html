@@ -13,54 +13,103 @@
     <script src="./js/script.js" defer></script>
   </head>
 
-  <body class="main-content">
-    <header class="section section-1 home active" id="home"></header>
-    <main>
-      <section class="section section-2 about" id="about"></section>
-      <section class="section section-3 graduation" id="graduation"></section>
-      <section class="section section-4 work" id="work"></section>
-      <section class="section section-5 contact" id="contact"></section>
-      <section class="section section-6 portfolio" id="portfolio"></section>
-      <section class="section section-7 tech" id="tech"></section>
-    </main>
+  <body>
+    <div class="main-content">
+      <nav class="nav-menu">
+        <ul class="list-icons">
+          <!-- Principal -->
+          <li class="list-icons__icon center-content active-btn" data-id="home">
+            <i class="fa-solid fa-house" data-id="home"></i>
+          </li>
 
-    <nav class="nav-menu">
-      <ul class="list-icons">
-        <!-- Principal -->
-        <li class="list-icons__icon center-content active-btn" data-id="home">
-          <i class="fa-solid fa-house" data-id="home"></i>
-        </li>
+          <!-- Sobre mim -->
+          <li class="list-icons__icon center-content" data-id="about">
+            <i class="fa-solid fa-user" data-id="about"></i>
+          </li>
 
-        <!-- Sobre mim -->
-        <li class="list-icons__icon center-content" data-id="about">
-          <i class="fa-solid fa-user" data-id="about"></i>
-        </li>
+          <!-- Formação -->
+          <li class="list-icons__icon center-content" data-id="graduation">
+            <i class="fa-solid fa-graduation-cap" data-id="graduation"></i>
+          </li>
 
-        <!-- Formação -->
-        <li class="list-icons__icon center-content" data-id="graduation">
-          <i class="fa-solid fa-graduation-cap" data-id="graduation"></i>
-        </li>
+          <!-- Experiências -->
+          <li class="list-icons__icon center-content" data-id="work">
+            <i class="fa-solid fa-briefcase" data-id="work"></i>
+          </li>
 
-        <!-- Experiências -->
-        <li class="list-icons__icon center-content" data-id="work">
-          <i class="fa-solid fa-briefcase" data-id="work"></i>
-        </li>
+          <!-- Contato -->
+          <li class="list-icons__icon center-content" data-id="contact">
+            <i class="fa-solid fa-envelope" data-id="contact"></i>
+          </li>
 
-        <!-- Contato -->
-        <li class="list-icons__icon center-content" data-id="contact">
-          <i class="fa-solid fa-envelope" data-id="contact"></i>
-        </li>
+          <!-- Portfólio -->
+          <li class="list-icons__icon center-content" data-id="portfolio">
+            <i class="fa-brands fa-github" data-id="portfolio"></i>
+          </li>
 
-        <!-- Portfólio -->
-        <li class="list-icons__icon center-content" data-id="portfolio">
-          <i class="fa-brands fa-github" data-id="portfolio"></i>
-        </li>
+          <!-- Tecnologias -->
+          <li class="list-icons__icon center-content" data-id="tech">
+            <i class="fa-solid fa-code" data-id="tech"></i>
+          </li>
+        </ul>
+      </nav>
 
-        <!-- Tecnologias -->
-        <li class="list-icons__icon center-content" data-id="tech">
-          <i class="fa-solid fa-code" data-id="tech"></i>
-        </li>
-      </ul>
-    </nav>
+      <header class="section section-1 home active" id="home">
+        <h2 class="center-content">Homepage</h2>
+      </header>
+
+      <main>
+        <section class="section section-2 about" id="about">
+          <h2 class="center-content">Sobre mim</h2>
+        </section>
+        <section class="section section-3 graduation" id="graduation">
+          <h2 class="center-content">Experiências Acadêmicas</h2>
+        </section>
+        <section class="section section-4 work" id="work">
+          <h2 class="center-content">Experiências Profissionais</h2>
+        </section>
+        <section class="section section-5 contact" id="contact">
+          <h2 class="center-content">Contato</h2>
+        </section>
+        <section class="section section-6 portfolio" id="portfolio">
+          <h2 class="center-content">Portfolio</h2>
+        </section>
+        <section class="section section-7 tech" id="tech">
+          <h2 class="center-content">Tecnologias</h2>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <div class="footer center-content">
+        <div class="footer-icons center-content">
+          <a
+            href="https://fontawesome.com/"
+            class="footer-icons__item center-content"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://fontawesome.com/"
+            class="footer-icons__item center-content"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://fontawesome.com/"
+            class="footer-icons__item center-content"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://fontawesome.com/"
+            class="footer-icons__item center-content"
+          >
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+        <p>&copy;Copyright. Desenvolvido por Guilherme Gabriel</p>
+      </div>
+    </footer>
   </body>
 </html>
