@@ -1,0 +1,77 @@
+@import url(../default/vars.css);
+
+header {
+  height: 100vh;
+  color: var(--color-text-primary-dark);
+  overflow: hidden;
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 3rem 18rem;
+}
+
+.section {
+  transform: translateY(-100%) scale(0);
+  transition: var(--transition);
+}
+
+.section-1 {
+  background-color: rgb(255, 8, 0);
+  display: none;
+  transform: translateY(0) scale(1);
+}
+
+.section-2 {
+  background-color: rebeccapurple;
+  display: none;
+  transform: translateY(0) scale(1);
+}
+
+.section-3 {
+  background-color: aqua;
+  display: none;
+  transform: translateY(0) scale(1);
+}
+
+.section-4 {
+  background-color: rgb(17, 0, 255);
+  display: none;
+  transform: translateY(0) scale(1);
+}
+
+.section-5 {
+  background-color: rgb(183, 0, 255);
+  display: none;
+  transform: translateY(0) scale(1);
+}
+
+.section-6 {
+  background-color: rgb(123, 255, 0);
+  display: none;
+  transform: translateY(0) scale(1);
+}
+
+.section-7 {
+  background-color: rgb(80, 112, 112);
+  display: none;
+  transform: translateY(0) scale(1);
+}
+
+@keyframes scaleAnim {
+  0% {
+    transform: translateY(-100%) scaleY(0);
+  }
+  100% {
+    transform: translateY(0) scaleY(1);
+  }
+}
+
+.active {
+  display: block;
+  animation: scaleAnim 0.7s ease-in-out;
+}

@@ -1,6 +1,12 @@
 /* Reset css */
 @import url(./default/reset.css);
 
+/* Helpers css */
+@import url(./default/helpers.css);
+
+/* Sections css */
+@import url(./components/sections.css);
+
 /* Menu lateral (sidebar) css */
 @import url(./components/sidebar.css);
 
