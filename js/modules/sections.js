@@ -1,5 +1,4 @@
-// Funcao principal de transicao das secoes
-function pageTransition() {
+export function pageTransition() {
   // Botao clicado coloca a classe .active-btn
   buttonActiveClass();
 
@@ -19,7 +18,6 @@ function buttonActiveClass() {
 }
 
 function sectionActiveClass() {
-  // const sectionButtons = document.querySelectorAll('.list-icons');
   const allsections = document.querySelector('.main-content');
   const sections = document.querySelectorAll('.section');
 
@@ -32,8 +30,8 @@ function sectionActiveClass() {
   })
 }
 
+// Funcoes auxiliares para deixar o codigo mais limpo
 
-//Helpers
 function removeActiveClass(sections) {
   sections.forEach((section) => {
     section.classList.remove('active');
@@ -44,6 +42,3 @@ function addActiveClass(id) {
   const element = document.getElementById(id);
   element.classList.add('active');
 }
-
-
-pageTransition();
