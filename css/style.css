@@ -12,3 +12,6 @@
 
 /* Rodape (footer) css */
 @import url(./components/footer.css);
+
+/* Home css */
+@import url(./components/home.css);

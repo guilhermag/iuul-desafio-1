@@ -1,5 +1,3 @@
-@import url(../default/vars.css);
-
 header {
   color: var(--color-text-primary-dark);
   overflow: hidden;
@@ -12,8 +10,8 @@ section {
 }
 
 .section {
-  padding: 3rem 18rem;
-  min-height: 85vh;
+  padding: 5rem 5rem;
+  min-height: 70vh;
   transform: translateY(-100%) scale(0);
   transition: var(--transition);
 }

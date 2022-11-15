@@ -1,0 +1,54 @@
+.home-content {
+  justify-content: center;
+  gap: 7rem;
+  width: 90%;
+}
+
+.title__name {
+  color: var(--color-green-dark);
+}
+
+.title__description {
+  color: var(--color-cyan-dark);
+}
+
+.home-description__title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.home-description__title .text {
+  position: relative;
+}
+
+.text.title__description::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-bg-dark);
+  border-left: 2px solid var(--color-cyan-dark);
+  animation: animate 4s steps(15) infinite;
+}
+
+@keyframes animate {
+  40%,
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+.home-description {
+  width: 30rem;
+}
+
+.profile-pic {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
