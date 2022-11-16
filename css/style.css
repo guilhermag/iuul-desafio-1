@@ -15,3 +15,5 @@
 
 /* Home css */
 @import url(./components/home.css);
+
+@import url(./components/about.css);
