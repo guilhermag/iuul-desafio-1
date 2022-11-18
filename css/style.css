@@ -16,4 +16,8 @@
 /* Home css */
 @import url(./components/home.css);
 
+/* Sobre mim css */
 @import url(./components/about.css);
+
+/* Experiencias css */
+@import url(./components/experiences.css);
