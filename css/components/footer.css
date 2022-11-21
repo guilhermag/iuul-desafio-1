@@ -30,3 +30,7 @@ footer {
   border-color: var(--color-comment-dark);
   transition: var(--transition);
 }
+
+.remove-footer {
+  display: none;
+}

@@ -1,0 +1,27 @@
+.contact__content .left-contact {
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+.left-contact {
+  flex: 2;
+  font-size: 0.9rem;
+}
+.right-contact {
+  flex: 1;
+}
+
+.left-contact h4 {
+  font-weight: 700;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons__item {
+  font-size: 1.4rem;
+  border-radius: 50%;
+  width: 3.4rem;
+  height: 3.4rem;
+}

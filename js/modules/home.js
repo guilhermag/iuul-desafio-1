@@ -6,10 +6,10 @@ export function changeOcupation() {
       text.textContent = 'Desenvolvedor Web.'
     }, 0);
     setTimeout(() => {
-      text.textContent = 'Gamer Oldschool.'
+      text.textContent = 'Pai de catioros.'
     }, 4000);
     setTimeout(() => {
-      text.textContent = 'Pai de cachorro.'
+      text.textContent = 'Paladino no D&D.'
     }, 8000);
   }
 

@@ -23,7 +23,14 @@ function sectionActiveClass() {
 
   allsections.addEventListener('click', (event) => {
     const id = event.target.dataset.id;
+
     if (id) {
+      const footer = document.getElementById('footer');
+      if (id === 'contact') {
+        footer.classList.add('remove-footer');
+      } else {
+        footer.classList.remove('remove-footer');
+      }
       removeActiveClass(sections);
       addActiveClass(id);
     }
