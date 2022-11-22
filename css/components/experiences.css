@@ -14,7 +14,7 @@
 .experiences .experiences__item {
   position: relative;
   padding-left: 2rem;
-  border-left: 1px solid var(--color-comment-dark);
+  border-left: 1px solid var(--color-comment);
 }
 
 .experiences .experiences__item .item__icon {

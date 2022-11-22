@@ -5,3 +5,5 @@ import { pageTransition } from "./modules/sections.js";
 pageTransition();
 
 changeOcupation()
+
+changeTheme()

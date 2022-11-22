@@ -20,18 +20,25 @@
   width: 100%;
 }
 
-.icon-social {
+.icon-buttons {
   font-size: 1.4rem;
   border-radius: 50%;
   width: 3.4rem;
   height: 3.4rem;
-  background-color: var(--color-secondary-bg-dark);
-  color: var(--color-text-secondary-dark);
+  background-color: var(--color-secondary-bg);
+  color: var(--color-text-secondary);
+}
+
+.button-effect {
+  padding: 1rem;
+  margin: 0.7rem 0;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
 }
 
 .icon-social:hover {
   cursor: pointer;
-  background-color: var(--color-comment-dark);
-  color: var(--color-text-primary-dark);
+  background-color: var(--color-comment);
+  color: var(--color-text-primary);
   transition: var(--transition);
 }

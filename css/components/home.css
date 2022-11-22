@@ -5,11 +5,11 @@
 }
 
 .title__name {
-  color: var(--color-green-dark);
+  color: var(--color-green);
 }
 
 .title__description {
-  color: var(--color-cyan-dark);
+  color: var(--color-cyan);
 }
 
 .home-description__title {
@@ -28,8 +28,8 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--color-bg-dark);
-  border-left: 2px solid var(--color-cyan-dark);
+  background-color: var(--color-bg);
+  border-left: 2px solid var(--color-cyan);
   animation: animate 4s steps(15) infinite;
 }
 

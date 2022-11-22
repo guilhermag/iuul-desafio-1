@@ -6,19 +6,19 @@
   --font-size: 1.1rem;
 
   /********** COLORS DARK THEME **********/
-  --color-bg-dark: #282a36;
-  --color-secondary-bg-dark: #44475a;
-  --color-text-primary-dark: #fafafa;
-  --color-text-secondary-dark: #fafafaa8;
-  --color-comment-dark: #6272a4;
-  --color-cyan-dark: #8be9fd;
-  --color-green-dark: #50fa7b;
-  --color-orange-dark: #ffb86c;
-  --color-pink-dark: #ff79c6;
-  --color-purple-dark: #bd93f9;
-  --color-purple-sec-dark: #bd93f996;
-  --color-red-dark: #ff5555;
-  --color-yellow-dark: #f1fa8c;
+  --color-bg: #282a36;
+  --color-secondary-bg: #44475a;
+  --color-text-primary: #fafafa;
+  --color-text-secondary: #fafafaa8;
+  --color-comment: #6272a4;
+  --color-cyan: #8be9fd;
+  --color-green: #50fa7b;
+  --color-orange: #ffb86c;
+  --color-pink: #ff79c6;
+  --color-purple: #bd93f9;
+  --color-purple-sec: #bd93f996;
+  --color-red: #ff5555;
+  --color-yellow: #f1fa8c;
 
   /********** COLORS LIGHT THEME **********/
   --color-bg-light: #fafafa;
@@ -27,4 +27,5 @@
   /********** OTHERS **********/
   --box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
   --transition: all 0.4s ease-in-out;
+  --transition-theme: all 0.1s ease-in-out;
 }

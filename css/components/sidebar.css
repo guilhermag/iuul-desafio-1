@@ -1,7 +1,7 @@
 .nav-menu {
   position: fixed;
   z-index: 10;
-  top: 10%;
+  top: 25%;
   right: 1%;
 }
 
@@ -9,24 +9,8 @@
   width: 5rem;
 }
 
-.list-icons__icon {
-  border-radius: 50%;
-  background-color: var(--color-secondary-bg-dark);
-  color: var(--color-text-secondary-dark);
-  padding: 1rem;
-  margin: 0.7rem 0;
-  cursor: pointer;
-  width: 3.4rem;
-  height: 3.4rem;
-  box-shadow: var(--box-shadow);
-}
-
-.list-icons__icon i {
-  font-size: 1.4rem;
-}
-
 .active-btn {
-  background-color: var(--color-comment-dark);
-  color: var(--color-text-primary-dark);
+  background-color: var(--color-comment);
+  color: var(--color-text-primary);
   transition: var(--transition);
 }

@@ -3,7 +3,6 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
-  color: var(--color-text-primary-dark);
 }
 
 *,
@@ -13,9 +12,10 @@ html {
 }
 
 body {
+  color: var(--color-text-primary);
   font-family: var(--font-family-primary);
   font-size: var(--font-size);
-  background-color: var(--color-bg-dark);
+  background-color: var(--color-bg);
   transition: var(--transition);
 }
 

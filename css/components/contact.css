@@ -64,15 +64,15 @@
 
 .input-form input,
 textarea {
-  background-color: var(--color-secondary-bg-dark);
-  color: var(--color-text-primary-dark);
+  background-color: var(--color-secondary-bg);
+  color: var(--color-text-primary);
   font-size: 1rem;
   resize: none;
 }
 
 .input-form input::placeholder,
 textarea::placeholder {
-  color: var(--color-text-primary-dark);
+  color: var(--color-text-primary);
 }
 
 .inputs {
@@ -84,15 +84,15 @@ textarea::placeholder {
 }
 
 .submit-button button {
-  background-color: var(--color-bg-dark);
+  background-color: var(--color-bg);
   font-weight: 700;
-  border: 2px solid var(--color-secondary-bg-dark);
-  color: var(--color-text-primary-dark);
+  border: 2px solid var(--color-secondary-bg);
+  color: var(--color-text-primary);
   width: 40%;
   cursor: pointer;
 }
 
 .submit-button button:hover {
-  background-color: var(--color-secondary-bg-dark);
+  background-color: var(--color-secondary-bg);
   transition: all 0.6s ease-in-out;
 }
