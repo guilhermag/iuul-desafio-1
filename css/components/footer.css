@@ -17,20 +17,6 @@ footer {
   padding: 0.5rem;
 }
 
-.footer-icons__item {
-  font-size: 1.4rem;
-  border-radius: 50%;
-  width: 3.4rem;
-  height: 3.4rem;
-  border: 1.5px solid var(--color-text-primary-dark);
-}
-
-.footer-icons__item:hover {
-  color: var(--color-comment-dark);
-  border-color: var(--color-comment-dark);
-  transition: var(--transition);
-}
-
 .remove-footer {
   display: none;
 }

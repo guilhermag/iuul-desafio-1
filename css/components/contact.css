@@ -1,27 +1,98 @@
-.contact__content .left-contact {
+.contact__content {
+  display: flex;
   justify-content: space-between;
   padding-top: 3rem;
 }
 
 .left-contact {
   flex: 2;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  line-height: 1.3rem;
 }
-.right-contact {
-  flex: 1;
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-item p {
+  margin: 0.3rem 0 !important;
+  padding: 0 !important;
+}
+
+.contact-item .icon {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+}
+
+.contact-item .icon i {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
 }
 
 .left-contact h4 {
+  margin-top: 1rem;
+  font-size: 1.6rem;
   font-weight: 700;
+  text-transform: uppercase;
+}
+
+.left-contact p {
+  margin: 0.6rem 0;
+  line-height: 1.8rem;
 }
 
 .social-icons {
   display: flex;
+  margin-top: 2rem;
 }
 
-.social-icons__item {
-  font-size: 1.4rem;
-  border-radius: 50%;
-  width: 3.4rem;
-  height: 3.4rem;
+.social-icons a {
+  margin: 0 0.4rem;
+}
+
+.right-contact {
+  flex: 3;
+  margin-left: 3rem;
+}
+
+.input-form {
+  margin: 1.3rem 0;
+}
+
+.input-form input,
+textarea {
+  background-color: var(--color-secondary-bg-dark);
+  color: var(--color-text-primary-dark);
+  font-size: 1rem;
+  resize: none;
+}
+
+.input-form input::placeholder,
+textarea::placeholder {
+  color: var(--color-text-primary-dark);
+}
+
+.inputs {
+  display: flex;
+}
+
+.inputs input:last-child {
+  margin-left: 1.5rem;
+}
+
+.submit-button button {
+  background-color: var(--color-bg-dark);
+  font-weight: 700;
+  border: 2px solid var(--color-secondary-bg-dark);
+  color: var(--color-text-primary-dark);
+  width: 40%;
+  cursor: pointer;
+}
+
+.submit-button button:hover {
+  background-color: var(--color-secondary-bg-dark);
+  transition: all 0.6s ease-in-out;
 }
