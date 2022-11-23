@@ -114,7 +114,23 @@
 .tutorials button {
   margin-top: 1.5rem;
   font-size: 1rem;
-
   height: 3rem;
   border-radius: 2rem;
+}
+
+.carousel {
+  overflow: hidden;
+  height: 500px;
+  width: 500px;
+}
+
+.carousel-container {
+  display: flex;
+  transform: translateX(0);
+}
+
+.carousel-container iframe {
+  object-fit: cover;
+  height: 500px;
+  width: 500px;
 }
