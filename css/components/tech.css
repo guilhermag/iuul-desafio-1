@@ -49,7 +49,7 @@
 }
 
 .tech-review-container {
-  margin-top: 0.8rem;
+  margin: 1rem 0;
   align-items: flex-start;
 }
 
@@ -61,7 +61,7 @@
   font-size: 1.1rem;
 }
 .tech-projects {
-  margin-top: 0.5rem;
+  margin: 1rem 0;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -69,7 +69,7 @@
 
 .tech-projects h4 {
   font-size: 1.1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .companies {
@@ -109,7 +109,7 @@
 }
 
 .footer-tech {
-  margin-top: 4.5rem;
+  margin-top: 3.5rem;
 }
 
 .custom-tech-icon {
