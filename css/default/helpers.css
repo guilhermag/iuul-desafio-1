@@ -42,3 +42,25 @@
   color: var(--color-text-primary);
   transition: var(--transition);
 }
+
+.custom-icon .test-tech {
+  display: block;
+  width: 1.4rem;
+  height: 1.4rem;
+  filter: invert(99%) sepia(3%) saturate(46%) hue-rotate(220deg)
+    brightness(117%) contrast(96%);
+}
+
+.custom-icon {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 2.8rem;
+  height: 2.8rem;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg);
+  transition: var(--transition);
+}
+
+.custom-icon:hover {
+  background-color: var(--color-text-primary);
+}

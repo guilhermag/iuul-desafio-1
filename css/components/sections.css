@@ -10,8 +10,8 @@ section {
 }
 
 .section {
-  padding: 4rem 10rem;
-  min-height: 80vh;
+  padding: 3rem 10rem;
+  height: 70vh;
   transform: translateY(-100%) scale(0);
   transition: var(--transition);
 }

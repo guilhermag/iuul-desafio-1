@@ -25,5 +25,8 @@
 /* Experiencias css */
 @import url(./components/experiences.css);
 
+/* Portfolio css */
+@import url(./components/portfolio.css);
+
 /* Contato css */
 @import url(./components/contact.css);
