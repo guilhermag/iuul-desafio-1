@@ -7,9 +7,6 @@
 /* Sections css */
 @import url(./components/sections.css);
 
-/* Theme css */
-@import url(./components/theme.css);
-
 /* Menu lateral (sidebar) css */
 @import url(./components/sidebar.css);
 

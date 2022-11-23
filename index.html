@@ -14,14 +14,14 @@
   </head>
 
   <body>
-    <a href="./pages/angular.html">click me</a>
     <div class="main-content">
       <nav class="nav-menu">
         <ul class="list-icons">
           <!-- Principal -->
           <li
-            class="list-icons__icon icon-buttons center-content active-btn button-effect"
+            class="list-icons__icon icon-buttons center-content button-effect"
             data-id="home"
+            id="button-home"
           >
             <i class="fa-solid fa-house" data-id="home"></i>
           </li>
@@ -54,6 +54,7 @@
           <li
             class="list-icons__icon icon-buttons center-content button-effect"
             data-id="portfolio"
+            id="button-portfolio"
           >
             <i class="fa-brands fa-github" data-id="portfolio"></i>
           </li>
@@ -68,7 +69,7 @@
         </ul>
       </nav>
 
-      <header class="section section-1 home" id="home">
+      <header class="section section-1 home active" id="home">
         <div class="center-content home-content">
           <img
             src="./assets/images/perfil_guilherme.jpg"
@@ -241,9 +242,12 @@
             </div>
           </div>
         </section>
-        <section class="section section-5 portfolio active" id="portfolio">
+        <section class="section section-5 portfolio" id="portfolio">
           <h2 class="title center-content">Portfolio</h2>
-          <p class="portfolio-text">Aqui estão alguns dos meus projetos</p>
+          <p class="portfolio-text">
+            Aqui estão alguns dos meus projetos, passe o mouse e veja o
+            repositório e as tecnologias usadas
+          </p>
           <div class="projects">
             <div class="project-item">
               <div class="image">
@@ -266,13 +270,19 @@
                 <div class="techs center-content">
                   <h3>Tecnologias</h3>
                   <div class="techs-project center-content">
-                    <div class="custom-icon center-content">
-                      <i class="tech-icon__project nestjs"></i>
-                    </div>
-                    <div class="custom-icon center-content">
-                      <i class="tech-icon__project typescript"></i>
-                    </div>
-                    <i class="fa-brands fa-docker tech-icon"></i>
+                    <a href="./pages/nest.html">
+                      <div class="custom-icon center-content">
+                        <i class="tech-icon__project nestjs"></i>
+                      </div>
+                    </a>
+                    <a href="./pages/typescript.html">
+                      <div class="custom-icon center-content">
+                        <i class="tech-icon__project typescript"></i>
+                      </div>
+                    </a>
+                    <a href="./pages/docker.html">
+                      <i class="fa-brands fa-docker tech-icon"></i>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -298,9 +308,15 @@
                 <div class="techs center-content">
                   <h3>Tecnologias</h3>
                   <div class="techs-project center-content">
-                    <i class="fa-brands fa-html5 tech-icon"></i>
-                    <i class="fa-brands fa-css3-alt tech-icon"></i>
-                    <i class="fa-brands fa-js tech-icon"></i>
+                    <a href="./pages/html.html">
+                      <i class="fa-brands fa-html5 tech-icon"></i>
+                    </a>
+                    <a href="./pages/css.html">
+                      <i class="fa-brands fa-css3-alt tech-icon"></i>
+                    </a>
+                    <a href="./pages/javascript.html">
+                      <i class="fa-brands fa-js tech-icon"></i>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -326,10 +342,14 @@
                 <div class="techs center-content">
                   <h3>Tecnologias</h3>
                   <div class="techs-project center-content">
-                    <i class="fa-brands fa-angular tech-icon"></i>
-                    <div class="custom-icon center-content">
-                      <i class="tech-icon__project typescript"></i>
-                    </div>
+                    <a href="./pages/angular.html">
+                      <i class="fa-brands fa-angular tech-icon"></i>
+                    </a>
+                    <a href="./pages/typescript.html">
+                      <div class="custom-icon center-content">
+                        <i class="tech-icon__project typescript"></i>
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>

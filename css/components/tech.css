@@ -1,6 +1,5 @@
-.nav-menu {
+.nav-menu-tech {
   top: 40%;
-  right: 1%;
 }
 
 .list-icons .icon-tech:hover {
@@ -20,16 +19,57 @@
   font-size: 5rem;
 }
 
-.tech-review {
-  margin-top: 1rem;
+.section-title h4 {
+  font-size: 1.1rem;
+  margin-top: 0.4rem;
+}
+
+.website-link {
+  transition: var(--transition);
+  color: var(--color-text-secondary);
+}
+
+.website-link:hover {
+  color: var(--color-text-primary);
+  text-decoration: underline;
+}
+
+.section-title p {
+  font-size: 0.8rem;
+}
+
+.review-description li {
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.3rem 1rem;
+}
+
+.review-description li p {
+  font-size: 0.9rem;
+}
+
+.tech-review-container {
+  margin-top: 0.8rem;
   justify-content: space-between;
 }
 
+.tech-review {
+  flex: 1;
+}
+
+.tech-review h4 {
+  font-size: 1.1rem;
+}
 .tech-projects {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+}
+
+.tech-projects h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
 }
 
 .companies {
@@ -39,8 +79,56 @@
   gap: 3rem;
 }
 
-.companies a img {
-  width: 3.5rem;
-  height: 3.5rem;
+.companie-image {
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
+  border: 2px solid var(--color-bg);
+  transition: var(--transition);
+}
+
+.companie-image:hover {
+  border-color: var(--color-text-primary);
+}
+
+.icon-tech__footer {
+  font-size: 1.7rem;
+  background-color: var(--color-bg);
+  color: var(--color-text-secondary);
+  transition: var(--transition);
+}
+
+.icon-tech__footer:hover {
+  cursor: pointer;
+  color: var(--color-text-primary);
+}
+
+.section-tech {
+  height: 80vh;
+  padding: 1.5rem 15rem;
+}
+
+.footer-tech {
+  margin-top: 4.5rem;
+}
+
+.custom-tech-icon {
+  width: 6rem;
+  height: 6rem;
+  cursor: default;
+  pointer-events: none;
+}
+
+.custom-tech-icon .tech-icon__project {
+  width: 4rem;
+  height: 4rem;
+}
+
+.custom-tech-icon .nestjs,
+.typescript {
+  background-size: 4rem 4rem;
+}
+
+.custom-tech-icon .typescript {
+  background-size: 4rem 4rem;
 }

@@ -3,7 +3,9 @@ export function pageTransition() {
   buttonActiveClass();
 
   // Secao ativa classe .active
-  sectionActiveClass()
+  sectionActiveClass();
+
+  checkRedirect();
 };
 
 function buttonActiveClass() {
@@ -35,6 +37,25 @@ function sectionActiveClass() {
       addActiveClass(id);
     }
   })
+}
+
+function checkRedirect() {
+  const redirect = window.localStorage.getItem('redirect');
+  const buttonHome = document.getElementById('button-home');
+
+  if (redirect === 'true') {
+    window.localStorage.removeItem('redirect');
+    const sections = document.querySelectorAll('.section');
+    removeActiveClass(sections);
+    addActiveClass('portfolio')
+
+    const buttonPortfolio = document.getElementById('button-portfolio');
+    buttonHome.className.replace('active-btn', '');
+    console.log(buttonHome.classList);
+    buttonPortfolio.className += ' active-btn';
+  } else {
+    buttonHome.className += ' active-btn';
+  }
 }
 
 // Funcoes auxiliares para deixar o codigo mais limpo
