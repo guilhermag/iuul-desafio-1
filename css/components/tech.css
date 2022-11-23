@@ -1,0 +1,46 @@
+.nav-menu {
+  top: 40%;
+  right: 1%;
+}
+
+.list-icons .icon-tech:hover {
+  background-color: var(--color-comment);
+  color: var(--color-text-primary);
+}
+
+.tech-section {
+  flex-direction: column;
+}
+
+.section-title {
+  flex-direction: column;
+}
+
+.section-title i {
+  font-size: 5rem;
+}
+
+.tech-review {
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+.tech-projects {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.companies {
+  margin-top: 0.7rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.companies a img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+}

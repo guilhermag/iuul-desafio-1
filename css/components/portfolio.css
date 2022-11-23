@@ -110,3 +110,11 @@
   filter: invert(12%) sepia(21%) saturate(698%) hue-rotate(193deg)
     brightness(98%) contrast(88%);
 }
+
+.tutorials button {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+
+  height: 3rem;
+  border-radius: 2rem;
+}

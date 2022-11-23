@@ -43,7 +43,7 @@
   transition: var(--transition);
 }
 
-.custom-icon .test-tech {
+.custom-icon .tech-icon__project {
   display: block;
   width: 1.4rem;
   height: 1.4rem;

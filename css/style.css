@@ -28,5 +28,8 @@
 /* Portfolio css */
 @import url(./components/portfolio.css);
 
+/* Tecnologias css */
+@import url(./components/tech.css);
+
 /* Contato css */
 @import url(./components/contact.css);
