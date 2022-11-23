@@ -50,7 +50,7 @@
 
 .tech-review-container {
   margin-top: 0.8rem;
-  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .tech-review {
