@@ -28,5 +28,8 @@
 /* Tecnologias css */
 @import url(./components/tech.css);
 
+/* Tutoriais css */
+@import url(./components/tutorials.css);
+
 /* Contato css */
 @import url(./components/contact.css);
