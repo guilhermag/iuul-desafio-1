@@ -14,7 +14,7 @@
   </head>
 
   <body>
-    <div class="main-content">
+    <main class="main-content">
       <nav class="nav-menu">
         <ul class="list-icons">
           <!-- Principal -->
@@ -92,458 +92,451 @@
         </div>
       </header>
 
-      <main>
-        <section class="section section-2 about" id="about">
-          <div class="about-content center-content">
-            <div class="content__picture">
+      <section class="section section-2 about" id="about">
+        <div class="about-content center-content">
+          <div class="content__picture">
+            <img
+              src="./assets/images/about_me.jpg"
+              alt="foto guilherme e sua noiva bruna"
+            />
+          </div>
+          <div class="content__text">
+            <h2 class="text__title title">Sobre mim</h2>
+            <div>
+              <p>
+                Meu nome é Guilherme de Araujo Gabriel, natural de Arapongas/PR
+                e atualmente morando em Toledo/PR com a minha noiva, Bruna, e
+                nossos 3 cachorros.
+              </p>
+              <p>
+                Estudo Tecnologia em Sistemas para Internet na UTFPR. Formado em
+                engenharia elétrica também pela UTFPR, já tive uma pequena
+                confeitaria com a minha noiva e em 2021 resolvi fazer a minha
+                transição de carreira para tecnologia.
+              </p>
+              <p>
+                Trabalho como desenvolvedor júnior na TCS, com Angular e
+                Node.js. Sou apaixonado por tecnologia, estudar e aprender
+                coisas novas.
+              </p>
+              <p>
+                Meus hobbys são aproveitar o tempo com a minha família,
+                cozinhar, ir na academia e jogar Dungeons & Dragons todo os
+                domingos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-3 graduation" id="graduation">
+        <div class="experiences-content center-content">
+          <h2 class="title">Experiências Acadêmicas</h2>
+          <div class="experiences">
+            <div class="experiences__item">
+              <div class="item__icon">
+                <i class="fa-solid fa-building-columns"></i>
+              </div>
+              <h3 class="item__title">UTFPR - Cornélio Procópio</h3>
+              <div class="item__content">
+                <div>
+                  <p>2013 - 2019</p>
+                  <h4>Engenharia Elétrica</h4>
+                  <p>
+                    Graduação completa, com tcc feito na área de projetos de
+                    energia solar.
+                  </p>
+                </div>
+
+                <div>
+                  <p>2013 - 2014</p>
+                  <h4>Projeto de extensão - Ninho dos pardais</h4>
+                  <p>
+                    Bolsista no projeto de extensão com foco em produção de
+                    video-aulas, para os laboratórios de engenharia elétrica.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="experiences__item">
+              <div class="item__icon">
+                <i class="fa-solid fa-building-columns"></i>
+              </div>
+              <h3 class="item__title">UTFPR - Toledo</h3>
+              <div class="item__content">
+                <div>
+                  <p>2021 - 2025</p>
+                  <h4>Tecnologia em Sistemas para Internet</h4>
+                  <p>
+                    Aluno regular do curso de TSI na UTFPR - Toledo, atualmente
+                    no segundo semestre.
+                  </p>
+                </div>
+
+                <div>
+                  <p>2021 - 2021</p>
+                  <h4>TSI - Grupos de estudo</h4>
+                  <p>
+                    Organização de grupos de estudos para os calouros do
+                    semestre 2020/2.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-4 work" id="work">
+        <div class="experiences-content center-content">
+          <h2 class="title">Experiências Profissionais</h2>
+          <div class="experiences">
+            <div class="experiences__item">
+              <div class="item__icon">
+                <i class="fa-solid fa-briefcase" data-id="work"></i>
+              </div>
+              <h3 class="item__title">Tata Consultancy Services</h3>
+              <div class="item__content">
+                <div>
+                  <p>07/2021 - 11/2021</p>
+                  <h4>Estagiário de Tecnologia</h4>
+                  <p>
+                    Estágio focado em conceitos básicos do mercado de
+                    tecnologia, como HTML, CSS, SQL e Java.
+                  </p>
+                </div>
+
+                <div>
+                  <p>12/2021 - 05/2022</p>
+                  <h4>Trainee de desenvolvimento de software</h4>
+                  <p>
+                    Desenvolvimento de software, testes unitários com Jasmine.
+                    Contato com Angular e NodeJs.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="experiences__item">
+              <div class="item__icon">
+                <i class="fa-solid fa-briefcase" data-id="work"></i>
+              </div>
+              <h3 class="item__title">Tata Consultancy Services</h3>
+              <div class="item__content">
+                <div>
+                  <p>06/2022 - presente</p>
+                  <h4>Desenvolvedor Front-end júnior</h4>
+                  <p>
+                    Desenvolvedor com foco em Angular, e contato com NodeJs no
+                    backend.
+                  </p>
+                  <p>
+                    Testes unitários com Jest no backend e Jasmine/Karma no
+                    frontend.
+                  </p>
+                  <p>
+                    Equipe localizada em parte nos EUA, projeto e comunicação
+                    totalmente em inglês.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-5 portfolio" id="portfolio">
+        <h2 class="title center-content">Portfolio</h2>
+        <p class="portfolio-text">
+          Aqui estão alguns dos meus projetos, passe o mouse e veja o
+          repositório e as tecnologias usadas
+        </p>
+        <div class="projects">
+          <div class="project-item">
+            <div class="image">
+              <img src="/assets/images/project1.png" alt="projeto api nestjs" />
+            </div>
+            <div class="project-tech center-content">
+              <div class="project-rep">
+                <h3>Movie Review API</h3>
+                <a
+                  href="https://github.com/guilhermag/lc-movie-review-api"
+                  target="_blank"
+                  class="center-content"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+              <div class="techs center-content">
+                <h3>Tecnologias</h3>
+                <div class="techs-project center-content">
+                  <a href="./pages/nest.html">
+                    <div class="custom-icon center-content">
+                      <i class="tech-icon__project nestjs"></i>
+                    </div>
+                  </a>
+                  <a href="./pages/typescript.html">
+                    <div class="custom-icon center-content">
+                      <i class="tech-icon__project typescript"></i>
+                    </div>
+                  </a>
+                  <a href="./pages/docker.html">
+                    <i class="fa-brands fa-docker tech-icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="image">
               <img
-                src="./assets/images/about_me.jpg"
-                alt="foto guilherme e sua noiva bruna"
+                src="/assets/images/project2.png"
+                alt="projeto animeflix, clone netflix"
               />
             </div>
-            <div class="content__text">
-              <h2 class="text__title title">Sobre mim</h2>
-              <div>
-                <p>
-                  Meu nome é Guilherme de Araujo Gabriel, natural de
-                  Arapongas/PR e atualmente morando em Toledo/PR com a minha
-                  noiva, Bruna, e nossos 3 cachorros.
-                </p>
-                <p>
-                  Estudo Tecnologia em Sistemas para Internet na UTFPR. Formado
-                  em engenharia elétrica também pela UTFPR, já tive uma pequena
-                  confeitaria com a minha noiva e em 2021 resolvi fazer a minha
-                  transição de carreira para tecnologia.
-                </p>
-                <p>
-                  Trabalho como desenvolvedor júnior na TCS, com Angular e
-                  Node.js. Sou apaixonado por tecnologia, estudar e aprender
-                  coisas novas.
-                </p>
-                <p>
-                  Meus hobbys são aproveitar o tempo com a minha família,
-                  cozinhar, ir na academia e jogar Dungeons & Dragons todo os
-                  domingos.
-                </p>
+            <div class="project-tech center-content">
+              <div class="project-rep">
+                <h3>Animeflix</h3>
+                <a
+                  href="https://github.com/guilhermag/dio-interface-netflix"
+                  target="_blank"
+                  class="center-content"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
               </div>
-            </div>
-          </div>
-        </section>
-        <section class="section section-3 graduation" id="graduation">
-          <div class="experiences-content center-content">
-            <h2 class="title">Experiências Acadêmicas</h2>
-            <div class="experiences">
-              <div class="experiences__item">
-                <div class="item__icon">
-                  <i class="fa-solid fa-building-columns"></i>
-                </div>
-                <h3 class="item__title">UTFPR - Cornélio Procópio</h3>
-                <div class="item__content">
-                  <div>
-                    <p>2013 - 2019</p>
-                    <h4>Engenharia Elétrica</h4>
-                    <p>
-                      Graduação completa, com tcc feito na área de projetos de
-                      energia solar.
-                    </p>
-                  </div>
-
-                  <div>
-                    <p>2013 - 2014</p>
-                    <h4>Projeto de extensão - Ninho dos pardais</h4>
-                    <p>
-                      Bolsista no projeto de extensão com foco em produção de
-                      video-aulas, para os laboratórios de engenharia elétrica.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="experiences__item">
-                <div class="item__icon">
-                  <i class="fa-solid fa-building-columns"></i>
-                </div>
-                <h3 class="item__title">UTFPR - Toledo</h3>
-                <div class="item__content">
-                  <div>
-                    <p>2021 - 2025</p>
-                    <h4>Tecnologia em Sistemas para Internet</h4>
-                    <p>
-                      Aluno regular do curso de TSI na UTFPR - Toledo,
-                      atualmente no segundo semestre.
-                    </p>
-                  </div>
-
-                  <div>
-                    <p>2021 - 2021</p>
-                    <h4>TSI - Grupos de estudo</h4>
-                    <p>
-                      Organização de grupos de estudos para os calouros do
-                      semestre 2020/2.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="section section-4 work" id="work">
-          <div class="experiences-content center-content">
-            <h2 class="title">Experiências Profissionais</h2>
-            <div class="experiences">
-              <div class="experiences__item">
-                <div class="item__icon">
-                  <i class="fa-solid fa-briefcase" data-id="work"></i>
-                </div>
-                <h3 class="item__title">Tata Consultancy Services</h3>
-                <div class="item__content">
-                  <div>
-                    <p>07/2021 - 11/2021</p>
-                    <h4>Estagiário de Tecnologia</h4>
-                    <p>
-                      Estágio focado em conceitos básicos do mercado de
-                      tecnologia, como HTML, CSS, SQL e Java.
-                    </p>
-                  </div>
-
-                  <div>
-                    <p>12/2021 - 05/2022</p>
-                    <h4>Trainee de desenvolvimento de software</h4>
-                    <p>
-                      Desenvolvimento de software, testes unitários com Jasmine.
-                      Contato com Angular e NodeJs.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="experiences__item">
-                <div class="item__icon">
-                  <i class="fa-solid fa-briefcase" data-id="work"></i>
-                </div>
-                <h3 class="item__title">Tata Consultancy Services</h3>
-                <div class="item__content">
-                  <div>
-                    <p>06/2022 - presente</p>
-                    <h4>Desenvolvedor Front-end júnior</h4>
-                    <p>
-                      Desenvolvedor com foco em Angular, e contato com NodeJs no
-                      backend.
-                    </p>
-                    <p>
-                      Testes unitários com Jest no backend e Jasmine/Karma no
-                      frontend.
-                    </p>
-                    <p>
-                      Equipe localizada em parte nos EUA, projeto e comunicação
-                      totalmente em inglês.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="section section-5 portfolio" id="portfolio">
-          <h2 class="title center-content">Portfolio</h2>
-          <p class="portfolio-text">
-            Aqui estão alguns dos meus projetos, passe o mouse e veja o
-            repositório e as tecnologias usadas
-          </p>
-          <div class="projects">
-            <div class="project-item">
-              <div class="image">
-                <img
-                  src="/assets/images/project1.png"
-                  alt="projeto api nestjs"
-                />
-              </div>
-              <div class="project-tech center-content">
-                <div class="project-rep">
-                  <h3>Movie Review API</h3>
-                  <a
-                    href="https://github.com/guilhermag/lc-movie-review-api"
-                    target="_blank"
-                    class="center-content"
-                  >
-                    <i class="fab fa-github"></i>
+              <div class="techs center-content">
+                <h3>Tecnologias</h3>
+                <div class="techs-project center-content">
+                  <a href="./pages/html.html">
+                    <i class="fa-brands fa-html5 tech-icon"></i>
+                  </a>
+                  <a href="./pages/css.html">
+                    <i class="fa-brands fa-css3-alt tech-icon"></i>
+                  </a>
+                  <a href="./pages/javascript.html">
+                    <i class="fa-brands fa-js tech-icon"></i>
                   </a>
                 </div>
-                <div class="techs center-content">
-                  <h3>Tecnologias</h3>
-                  <div class="techs-project center-content">
-                    <a href="./pages/nest.html">
-                      <div class="custom-icon center-content">
-                        <i class="tech-icon__project nestjs"></i>
-                      </div>
-                    </a>
-                    <a href="./pages/typescript.html">
-                      <div class="custom-icon center-content">
-                        <i class="tech-icon__project typescript"></i>
-                      </div>
-                    </a>
-                    <a href="./pages/docker.html">
-                      <i class="fa-brands fa-docker tech-icon"></i>
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
-            <div class="project-item">
-              <div class="image">
-                <img
-                  src="/assets/images/project2.png"
-                  alt="projeto animeflix, clone netflix"
-                />
+          </div>
+          <div class="project-item">
+            <div class="image">
+              <img
+                src="/assets/images/project3.png"
+                alt="projeto banco virtual angular"
+              />
+            </div>
+            <div class="project-tech center-content">
+              <div class="project-rep">
+                <h3>Bytebank - Angular</h3>
+                <a
+                  href="https://github.com/guilhermag/angular1-bytebank"
+                  target="_blank"
+                  class="center-content"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
               </div>
-              <div class="project-tech center-content">
-                <div class="project-rep">
-                  <h3>Animeflix</h3>
-                  <a
-                    href="https://github.com/guilhermag/dio-interface-netflix"
-                    target="_blank"
-                    class="center-content"
-                  >
-                    <i class="fab fa-github"></i>
+              <div class="techs center-content">
+                <h3>Tecnologias</h3>
+                <div class="techs-project center-content">
+                  <a href="./pages/angular.html">
+                    <i class="fa-brands fa-angular tech-icon"></i>
+                  </a>
+                  <a href="./pages/typescript.html">
+                    <div class="custom-icon center-content">
+                      <i class="tech-icon__project typescript"></i>
+                    </div>
                   </a>
                 </div>
-                <div class="techs center-content">
-                  <h3>Tecnologias</h3>
-                  <div class="techs-project center-content">
-                    <a href="./pages/html.html">
-                      <i class="fa-brands fa-html5 tech-icon"></i>
-                    </a>
-                    <a href="./pages/css.html">
-                      <i class="fa-brands fa-css3-alt tech-icon"></i>
-                    </a>
-                    <a href="./pages/javascript.html">
-                      <i class="fa-brands fa-js tech-icon"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="project-item">
-              <div class="image">
-                <img
-                  src="/assets/images/project3.png"
-                  alt="projeto banco virtual angular"
-                />
-              </div>
-              <div class="project-tech center-content">
-                <div class="project-rep">
-                  <h3>Bytebank - Angular</h3>
-                  <a
-                    href="https://github.com/guilhermag/angular1-bytebank"
-                    target="_blank"
-                    class="center-content"
-                  >
-                    <i class="fab fa-github"></i>
-                  </a>
-                </div>
-                <div class="techs center-content">
-                  <h3>Tecnologias</h3>
-                  <div class="techs-project center-content">
-                    <a href="./pages/angular.html">
-                      <i class="fa-brands fa-angular tech-icon"></i>
-                    </a>
-                    <a href="./pages/typescript.html">
-                      <div class="custom-icon center-content">
-                        <i class="tech-icon__project typescript"></i>
-                      </div>
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
-          <div class="tutorials center-content submit-button">
-            <button>Vídeo-aulas recomendadas</button>
-            <div class="modal" id="modal">
-              <div class="carousel">
-                <div class="carousel-container" id="img">
-                  <iframe
-                    width="420"
-                    height="315"
-                    src="https://www.youtube.com/embed/xV7S8BhIeBo"
-                  >
-                  </iframe>
-                  <iframe
-                    width="420"
-                    height="315"
-                    src="https://www.youtube.com/embed/iJKCj8uAHz8"
-                  >
-                  </iframe>
-                  <iframe
-                    width="420"
-                    height="315"
-                    src="https://www.youtube.com/embed/_xkSvufmjEs"
-                  >
-                  </iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="section section-6 contact" id="contact">
-          <div class="contact-container">
-            <h2 class="title center-content">Contato</h2>
-            <div class="contact__content">
-              <div class="left-contact">
-                <h4>Entre em contato</h4>
-                <p>Vamos marcar um cafézinho.</p>
-                <div class="contact-info">
-                  <div class="contact-item">
-                    <div class="icon">
-                      <i class="fas fa-map-marker-alt"></i>
-                      <span>Local: </span>
-                    </div>
-                    <p>Toledo/PR, Brasil</p>
-                  </div>
-
-                  <div class="contact-item">
-                    <div class="icon">
-                      <i class="fas fa-envelope"></i>
-                      <span>Email: </span>
-                    </div>
-                    <p>guilhermag@gmail.com</p>
-                  </div>
-
-                  <div class="contact-item">
-                    <div class="icon">
-                      <i class="fas fa-user-graduate"></i>
-                      <span>Faculdade: </span>
-                    </div>
-                    <p>TSI - UTFPR</p>
-                  </div>
-
-                  <div class="contact-item">
-                    <div class="icon">
-                      <i class="fa-solid fa-phone"></i>
-                      <span>Telefone: </span>
-                    </div>
-                    <p>+55 (43) 99999-9999</p>
-                  </div>
-
-                  <div class="contact-item">
-                    <div class="icon">
-                      <i class="fa-solid fa-language"></i>
-                      <span>Idiomas: </span>
-                    </div>
-                    <p>Português, Inglês</p>
-                  </div>
-                </div>
-                <div class="contact-social-media">
-                  <div class="social-icons">
-                    <a
-                      href="https://www.instagram.com/guilherme.ag.93/"
-                      target="_blank"
-                      class="icon-social icon-buttons center-content"
-                    >
-                      <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a
-                      href="https://github.com/guilhermag"
-                      target="_blank"
-                      class="icon-social icon-buttons center-content"
-                    >
-                      <i class="fa-brands fa-github"></i>
-                    </a>
-                    <a
-                      href="https://www.linkedin.com/in/guilherme-gabriel-22961610a/"
-                      target="_blank"
-                      class="icon-social icon-buttons center-content"
-                    >
-                      <i class="fa-brands fa-linkedin-in"></i>
-                    </a>
-                    <a
-                      href="mailto:guilhermag@gmail.com"
-                      target="_blank"
-                      class="icon-social icon-buttons center-content"
-                    >
-                      <i class="fa-solid fa-envelope"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="right-contact">
-                <form action="" class="contact-form">
-                  <div class="input-form inputs">
-                    <input
-                      type="text"
-                      required
-                      placeholder="Seu Nome"
-                      class="buttons-full"
-                    />
-                    <input
-                      type="email"
-                      required
-                      placeholder="Seu Email"
-                      class="buttons-full"
-                    />
-                  </div>
-                  <div class="input-form">
-                    <input
-                      type="text"
-                      required
-                      placeholder="Assunto"
-                      class="buttons-full"
-                    />
-                  </div>
-                  <div class="input-form">
-                    <textarea
-                      name=""
-                      id=""
-                      cols="15"
-                      rows="6"
-                      placeholder="Digite sua mensagem..."
-                      class="buttons-full"
-                    ></textarea>
-                  </div>
-                  <div class="submit-button">
-                    <button class="buttons-full">Enviar</button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-    </div>
-
-    <footer>
-      <div class="footer center-content" id="footer">
-        <div class="footer-icons center-content">
-          <a
-            href="https://www.instagram.com/guilherme.ag.93/"
-            target="_blank"
-            class="icon-social icon-buttons center-content"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a
-            href="https://github.com/guilhermag"
-            target="_blank"
-            class="icon-social icon-buttons center-content"
-          >
-            <i class="fa-brands fa-github"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/guilherme-gabriel-22961610a/"
-            target="_blank"
-            class="icon-social icon-buttons center-content"
-          >
-            <i class="fa-brands fa-linkedin-in"></i>
-          </a>
-          <a
-            href="mailto:guilhermag@gmail.com"
-            target="_blank"
-            class="icon-social icon-buttons center-content"
-          >
-            <i class="fa-solid fa-envelope"></i>
-          </a>
         </div>
-        <p>&copy;Copyright. Desenvolvido por Guilherme Gabriel</p>
-      </div>
-    </footer>
+        <div class="tutorials center-content submit-button">
+          <button>Vídeo-aulas recomendadas</button>
+          <div class="modal" id="modal">
+            <div class="carousel">
+              <div class="carousel-container" id="img">
+                <iframe
+                  width="420"
+                  height="315"
+                  src="https://www.youtube.com/embed/xV7S8BhIeBo"
+                >
+                </iframe>
+                <iframe
+                  width="420"
+                  height="315"
+                  src="https://www.youtube.com/embed/iJKCj8uAHz8"
+                >
+                </iframe>
+                <iframe
+                  width="420"
+                  height="315"
+                  src="https://www.youtube.com/embed/_xkSvufmjEs"
+                >
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-6 contact" id="contact">
+        <div class="contact-container">
+          <h2 class="title center-content">Contato</h2>
+          <div class="contact__content">
+            <div class="left-contact">
+              <h4>Entre em contato</h4>
+              <p>Vamos marcar um cafézinho.</p>
+              <div class="contact-info">
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Local: </span>
+                  </div>
+                  <p>Toledo/PR, Brasil</p>
+                </div>
+
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email: </span>
+                  </div>
+                  <p>guilhermag@gmail.com</p>
+                </div>
+
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-user-graduate"></i>
+                    <span>Faculdade: </span>
+                  </div>
+                  <p>TSI - UTFPR</p>
+                </div>
+
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Telefone: </span>
+                  </div>
+                  <p>+55 (43) 99999-9999</p>
+                </div>
+
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fa-solid fa-language"></i>
+                    <span>Idiomas: </span>
+                  </div>
+                  <p>Português, Inglês</p>
+                </div>
+              </div>
+              <div class="contact-social-media">
+                <div class="social-icons">
+                  <a
+                    href="https://www.instagram.com/guilherme.ag.93/"
+                    target="_blank"
+                    class="icon-social icon-buttons center-content"
+                  >
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a
+                    href="https://github.com/guilhermag"
+                    target="_blank"
+                    class="icon-social icon-buttons center-content"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/guilherme-gabriel-22961610a/"
+                    target="_blank"
+                    class="icon-social icon-buttons center-content"
+                  >
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                  <a
+                    href="mailto:guilhermag@gmail.com"
+                    target="_blank"
+                    class="icon-social icon-buttons center-content"
+                  >
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="right-contact">
+              <form action="" class="contact-form">
+                <div class="input-form inputs">
+                  <input
+                    type="text"
+                    required
+                    placeholder="Seu Nome"
+                    class="buttons-full"
+                  />
+                  <input
+                    type="email"
+                    required
+                    placeholder="Seu Email"
+                    class="buttons-full"
+                  />
+                </div>
+                <div class="input-form">
+                  <input
+                    type="text"
+                    required
+                    placeholder="Assunto"
+                    class="buttons-full"
+                  />
+                </div>
+                <div class="input-form">
+                  <textarea
+                    name=""
+                    id=""
+                    cols="15"
+                    rows="6"
+                    placeholder="Digite sua mensagem..."
+                    class="buttons-full"
+                  ></textarea>
+                </div>
+                <div class="submit-button">
+                  <button class="buttons-full">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer center-content" id="footer">
+          <div class="footer-icons center-content">
+            <a
+              href="https://www.instagram.com/guilherme.ag.93/"
+              target="_blank"
+              class="icon-social icon-buttons center-content"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://github.com/guilhermag"
+              target="_blank"
+              class="icon-social icon-buttons center-content"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/guilherme-gabriel-22961610a/"
+              target="_blank"
+              class="icon-social icon-buttons center-content"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a
+              href="mailto:guilhermag@gmail.com"
+              target="_blank"
+              class="icon-social icon-buttons center-content"
+            >
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+          <p>&copy;Copyright. Desenvolvido por Guilherme Gabriel</p>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>

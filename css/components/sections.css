@@ -4,44 +4,42 @@ header {
 }
 
 section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   left: 0;
   top: 0;
 }
 
 .section {
-  padding: 3rem 10rem;
-  height: 70vh;
+  padding: 3rem 12rem;
+  min-height: 70vh;
   transform: translateY(-100%) scale(0);
   transition: var(--transition);
 }
 
 .section-1 {
-  /* background-color: rgb(255, 8, 0); */
   display: none;
   transform: translateY(0) scale(1);
 }
 
 .section-2 {
-  /* background-color: rebeccapurple; */
   display: none;
   transform: translateY(0) scale(1);
 }
 
 .section-3 {
-  /* background-color: aqua; */
   display: none;
   transform: translateY(0) scale(1);
 }
 
 .section-4 {
-  /* background-color: rgb(17, 0, 255); */
   display: none;
   transform: translateY(0) scale(1);
 }
 
 .section-5 {
-  /* background-color: rgb(183, 0, 255); */
   display: none;
   transform: translateY(0) scale(1);
 }
@@ -70,4 +68,12 @@ section {
 .active {
   display: block;
   animation: scaleAnim 0.7s ease-in-out;
+}
+
+.main-content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

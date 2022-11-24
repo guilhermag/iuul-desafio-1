@@ -7,6 +7,11 @@
   color: var(--color-text-primary);
 }
 
+.section-tech {
+  transform: translateY(0) scale(1);
+  padding-bottom: 0.5rem;
+}
+
 .tech-section {
   flex-direction: column;
 }
@@ -44,17 +49,31 @@
   padding: 0.3rem 1rem;
 }
 
+.review-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .review-description li p {
   font-size: 0.9rem;
 }
 
 .tech-review-container {
-  margin: 1rem 0;
-  align-items: flex-start;
+  margin: 1.3rem 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .tech-review {
-  flex: 1;
+  width: 30rem;
+}
+
+.tech-review:last-child {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .tech-review h4 {
@@ -69,7 +88,8 @@
 
 .tech-projects h4 {
   font-size: 1.1rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
+  text-align: center;
 }
 
 .companies {
@@ -101,15 +121,6 @@
 .icon-tech__footer:hover {
   cursor: pointer;
   color: var(--color-text-primary);
-}
-
-.section-tech {
-  height: 80vh;
-  padding: 1.5rem 15rem;
-}
-
-.footer-tech {
-  margin-top: 3.5rem;
 }
 
 .custom-tech-icon {
