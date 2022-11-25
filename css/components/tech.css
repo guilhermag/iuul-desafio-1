@@ -146,6 +146,51 @@
 
 /* Media queries */
 @media screen and (max-width: 480px) {
+  .section-title h4 {
+    text-align: center;
+  }
+
   .tech-review-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .tech-section {
+    width: 20rem;
+  }
+  .tech-review,
+  .tech-review:last-child {
+    width: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .review-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .review-description li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .review-description li p {
+    text-align: justify;
+    width: 15rem;
+  }
+
+  .companies {
+    gap: 0.5rem;
+  }
+
+  .companie-image {
+    width: 2.3rem;
+    height: 2.3rem;
   }
 }
