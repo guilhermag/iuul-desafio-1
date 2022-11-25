@@ -119,8 +119,8 @@ textarea::placeholder {
   }
 
   .left-contact h4,
-  p,
-  .contact-info {
+  .left-contact p,
+  .left-contact .contact-info {
     display: none;
   }
 
