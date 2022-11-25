@@ -47,6 +47,10 @@
   width: 30rem;
 }
 
+.home-description p {
+  text-align: justify;
+}
+
 .profile-pic {
   width: 20rem;
   height: 20rem;
@@ -79,6 +83,7 @@
   .home-description p {
     font-size: 0.9rem;
     margin: 1rem 0rem;
+    text-align: justify;
   }
 
   .home-description .title {

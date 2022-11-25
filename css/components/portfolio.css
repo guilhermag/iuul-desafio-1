@@ -110,3 +110,14 @@
   filter: invert(12%) sepia(21%) saturate(698%) hue-rotate(193deg)
     brightness(98%) contrast(88%);
 }
+
+/* Media queries */
+@media screen and (max-width: 480px) {
+  .projects {
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0rem 3rem;
+  }
+}
