@@ -113,16 +113,19 @@
 
 /* Media queries */
 @media screen and (max-width: 480px) {
+  .portfolio.active {
+    width: 20rem;
+  }
   .projects {
     margin-top: 0rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    padding: 0rem 3rem;
+    padding: 0rem 2rem;
   }
 
   .portfolio-text {
-    width: 25rem;
     font-size: 1rem;
+    text-align: justify;
   }
 }
