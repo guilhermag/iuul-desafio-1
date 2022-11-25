@@ -120,4 +120,9 @@
     gap: 1rem;
     padding: 0rem 3rem;
   }
+
+  .portfolio-text {
+    width: 25rem;
+    font-size: 1rem;
+  }
 }

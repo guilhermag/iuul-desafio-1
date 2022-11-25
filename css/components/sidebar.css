@@ -14,3 +14,13 @@
   color: var(--color-text-primary);
   transition: var(--transition);
 }
+
+/* Media queries */
+@media screen and (max-width: 480px) {
+  .nav-menu {
+    position: fixed;
+    z-index: 10;
+    top: 20%;
+    right: -6%;
+  }
+}
