@@ -60,20 +60,22 @@
 /* Media queries */
 @media screen and (max-width: 480px) {
   .home-content {
+    width: 100%;
     gap: 3rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
   }
 
   .profile-pic {
-    width: 15rem;
-    height: 15rem;
+    width: 13rem;
+    height: 13rem;
     border-radius: 50%;
   }
 
   .home-description {
-    width: 20rem;
+    width: 14rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
