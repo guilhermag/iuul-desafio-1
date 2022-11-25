@@ -13,3 +13,10 @@
 .remove-footer {
   display: none;
 }
+
+@media screen and (max-width: 480px) {
+  .footer {
+    font-size: 0.7rem;
+    height: 2rem;
+  }
+}
