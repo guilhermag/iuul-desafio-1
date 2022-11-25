@@ -100,7 +100,7 @@ textarea::placeholder {
 /* Media queries */
 @media screen and (max-width: 480px) {
   .contact__content {
-    padding: 1rem 3.5rem;
+    padding: 1rem 1rem;
     flex-direction: column-reverse;
     gap: 2rem;
   }
@@ -111,6 +111,17 @@ textarea::placeholder {
 
   .right-contact {
     margin-left: 0rem;
+  }
+
+  .left-contact h4 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .left-contact h4,
+  p,
+  .contact-info {
+    display: none;
   }
 
   .contact-social-media {

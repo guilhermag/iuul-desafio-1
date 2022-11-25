@@ -143,3 +143,9 @@
 .custom-tech-icon .typescript {
   background-size: 4rem 4rem;
 }
+
+/* Media queries */
+@media screen and (max-width: 480px) {
+  .tech-review-container {
+  }
+}
