@@ -71,7 +71,6 @@
   .profile-pic {
     width: 13rem;
     height: 13rem;
-    border-radius: 50%;
   }
 
   .home-description {
@@ -90,5 +89,39 @@
 
   .home-description .title {
     font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .home-content {
+    width: 100%;
+    gap: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .profile-pic {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .home-description {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-description p {
+    font-size: 0.9rem;
+    margin: 1rem 0rem;
+    text-align: justify;
+  }
+
+  .home-description .title {
+    font-size: 1.6rem;
   }
 }

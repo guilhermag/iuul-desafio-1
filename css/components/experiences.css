@@ -64,3 +64,27 @@
     font-size: 0.9rem;
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 1150px) {
+  .experiences {
+    grid-gap: 5rem;
+    grid-column-gap: 7rem;
+  }
+
+  .experiences-content h2 {
+    text-align: center;
+  }
+
+  .experiences__item .item__title {
+    font-size: 1.1rem;
+  }
+
+  .item-container {
+    font-size: 0.9rem;
+    width: 15rem;
+  }
+
+  .item-container h4 {
+    font-size: 1rem;
+  }
+}

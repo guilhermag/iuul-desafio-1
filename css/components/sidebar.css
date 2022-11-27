@@ -37,3 +37,25 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    z-index: 10;
+    top: 40%;
+    right: 0%;
+  }
+
+  .list-icons {
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .list-icons .button-effect {
+    margin: 0;
+  }
+}
