@@ -8,11 +8,19 @@ O objetivo desse projeto foi a realização do primeiro desafio da residência e
 - CSS.
 - Javascript.
 
-<!-- ## Preview do projeto
+## Preview do projeto
 
-Preview
+Preview da homepage versão desktop.
 
-![Preview do projeto](/assets/img/preview.png) -->
+<p align="center">
+ <img src="./assets/images/readme/preview_desk.png" alt="preview desktop" />
+</p>
+
+Preview da homepage versão mobile.
+
+<p align="center">
+ <img src="./assets/images/readme/preview_mobile.png" alt="preview desktop" />
+</p>
 
 ## Como testar o projeto
 
