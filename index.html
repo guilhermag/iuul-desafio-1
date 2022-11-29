@@ -73,7 +73,6 @@
           <li
             class="list-icons__icon icon-buttons center-content button-effect"
             data-id="tutorials"
-            id="button-portfolio"
           >
             <i class="fa-brands fa-youtube" data-id="tutorials"></i>
           </li>
@@ -82,6 +81,7 @@
           <li
             class="list-icons__icon icon-buttons center-content button-effect"
             data-id="contact"
+            id="button-contact"
           >
             <i class="fa-solid fa-envelope" data-id="contact"></i>
           </li>
@@ -484,7 +484,14 @@
                 </div>
               </div>
             </div>
-            <div class="right-contact">
+            <div class="right-contact center-content">
+              <a
+                href="./pages/messages.html"
+                rel="noopener noreferrer"
+                class="redirect-messages buttons-full center-content"
+              >
+                Ir para lista de mensagens
+              </a>
               <form action="" class="contact-form">
                 <div class="input-form inputs">
                   <input
@@ -518,8 +525,11 @@
                     class="buttons-full"
                   ></textarea>
                 </div>
-                <div class="submit-button">
-                  <button class="buttons-full">Enviar</button>
+                <div class="submit-button center-content">
+                  <button type="submit" class="buttons-full">Enviar</button>
+                  <button type="button" id="clearMessages" class="buttons-full">
+                    Limpar Mensagens
+                  </button>
                 </div>
               </form>
             </div>

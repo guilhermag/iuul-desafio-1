@@ -45,14 +45,14 @@ function checkRedirect() {
 
   if (redirect === 'true') {
     window.localStorage.removeItem('redirect');
+    const sectionRedirected = window.localStorage.getItem('section')
     const sections = document.querySelectorAll('.section');
     removeActiveClass(sections);
-    addActiveClass('portfolio')
+    addActiveClass(sectionRedirected);
 
-    const buttonPortfolio = document.getElementById('button-portfolio');
+    const buttonSelected = document.getElementById(`button-${sectionRedirected}`);
     buttonHome.className.replace('active-btn', '');
-    console.log(buttonHome.classList);
-    buttonPortfolio.className += ' active-btn';
+    buttonSelected.className += ' active-btn';
   } else {
     buttonHome.className += ' active-btn';
   }
