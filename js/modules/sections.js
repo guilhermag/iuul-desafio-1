@@ -51,7 +51,6 @@ function checkRedirect() {
 
     const buttonPortfolio = document.getElementById('button-portfolio');
     buttonHome.className.replace('active-btn', '');
-    console.log(buttonHome.classList);
     buttonPortfolio.className += ' active-btn';
   } else {
     buttonHome.className += ' active-btn';
