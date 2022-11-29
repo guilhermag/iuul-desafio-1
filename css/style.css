@@ -33,3 +33,6 @@
 
 /* Contato css */
 @import url(./components/contact.css);
+
+/* Mensagens css */
+@import url(./components/messages.css);

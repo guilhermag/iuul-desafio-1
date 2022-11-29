@@ -105,6 +105,46 @@ textarea::placeholder {
   text-align: center;
 }
 
+dialog {
+  transition: var(--transition);
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.651);
+}
+
+.modal {
+  background-color: var(--color-bg);
+  border: 2px solid var(--color-secondary-bg);
+  border-radius: 1.5rem;
+  color: var(--color-text-primary);
+  width: 30rem;
+}
+
+.modal h4 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.buttons-modal {
+  gap: 2rem;
+}
+
+.buttons-modal button {
+  border: 3px solid var(--color-bg);
+  width: 30%;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.button-confirm:hover {
+  background-color: var(--color-green);
+}
+
+.button-cancel:hover {
+  background-color: var(--color-red);
+}
+
 .submit-button button:hover,
 .redirect-messages:hover {
   background-color: var(--color-secondary-bg);
