@@ -151,6 +151,33 @@ dialog::backdrop {
   transition: all 0.6s ease-in-out;
 }
 
+.messages-confirmation {
+  position: relative;
+  margin: 1rem 0;
+}
+
+.delete {
+  color: var(--color-orange);
+}
+
+.send {
+  color: var(--color-green);
+}
+
+.message-button {
+  position: absolute;
+  top: 0;
+  left: -16rem;
+  width: 30rem;
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  transition: var(--transition);
+}
+
 /* Media queries */
 @media screen and (max-width: 480px) {
   .contact__content {

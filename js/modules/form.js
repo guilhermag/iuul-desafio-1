@@ -9,7 +9,35 @@ export function formFunction() {
     window.localStorage.setItem('formList', JSON.stringify(formList));
 
     clearFormFields(form);
+    showMessage('send');
   })
+}
+
+function showMessage(message) {
+  switch (message) {
+    case 'send':
+      sendMessage();
+      break;
+    case 'delete':
+      deleteMessages();
+      break;
+  }
+}
+
+function sendMessage() {
+  const message = document.getElementById('sendMessage');
+  message.style.visibility = 'visible';
+  setTimeout(() => {
+    message.style.visibility = 'hidden';
+  }, 3000);
+}
+
+function deleteMessages() {
+  const message = document.getElementById('deleteMessages');
+  message.style.visibility = 'visible';
+  setTimeout(() => {
+    message.style.visibility = 'hidden';
+  }, 3000);
 }
 
 function getMessageList() {
@@ -51,6 +79,7 @@ function confirmButton(modal) {
   button.addEventListener('click', () => {
     clearMessages();
     modal.close();
+    showMessage('delete');
   })
 }
 
