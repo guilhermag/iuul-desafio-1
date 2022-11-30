@@ -18,20 +18,35 @@
   text-align: justify;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .about-content {
     display: flex;
     flex-direction: column;
   }
-
   .content__text {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
   .content__text p {
     font-size: 1rem;
     text-align: justify;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .content__picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content__picture img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .content__text {
+    width: 80%;
   }
 }

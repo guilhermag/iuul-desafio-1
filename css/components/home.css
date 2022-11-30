@@ -22,7 +22,7 @@
 }
 
 .text.title__description::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -92,7 +92,7 @@
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 1024px) {
   .home-content {
     width: 100%;
     gap: 3rem;
@@ -101,12 +101,10 @@
     align-items: center;
     margin: 0;
   }
-
   .profile-pic {
     width: 15rem;
     height: 15rem;
   }
-
   .home-description {
     width: 25rem;
     display: flex;
@@ -115,13 +113,23 @@
     align-items: center;
   }
 
+  .home-description .title {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .home-description p {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     margin: 1rem 0rem;
     text-align: justify;
   }
 
-  .home-description .title {
-    font-size: 1.6rem;
+  .home-description {
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
