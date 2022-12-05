@@ -12,8 +12,8 @@ table caption {
 }
 
 table tr {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid var(--color-text-primary);
+  border-bottom: 1px solid var(--color-text-primary);
   padding: 0.35em;
 }
 
@@ -27,4 +27,64 @@ table th {
   font-size: 1rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .section.message-content {
+    padding: 4rem;
+  }
+
+  .messages h2 {
+    font-size: 1.5rem;
+  }
+
+  .messages h4 {
+    font-size: 1rem;
+  }
+
+  table tr th {
+    display: none;
+  }
+
+  table tr td {
+    display: flex;
+  }
+
+  table tr {
+    border: none;
+  }
+
+  table tr td:first-child {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    border-top: 1px solid var(--color-text-primary);
+    border-bottom: 1px solid var(--color-text-primary);
+  }
+
+  table tr td {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  table tr td:nth-child(2)::before {
+    content: 'Email:';
+    font-weight: 700;
+  }
+
+  table tr td:nth-child(3)::before {
+    content: 'Assunto:';
+    font-weight: 700;
+  }
+
+  table tr td:nth-child(4)::before {
+    content: 'Mensagem:';
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  table tr td {
+    font-size: 0.9rem;
+  }
 }

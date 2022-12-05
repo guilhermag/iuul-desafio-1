@@ -3,30 +3,30 @@ function generateTable() {
   const formList = localStorageData ? JSON.parse(localStorageData) : [];
   const list = document.getElementById('messageList');
 
-  list.innerHTML =
-    `<table>
+  list.innerHTML = `<table>
       <tr>
         <th>Autor</th>
         <th>Email</th>
         <th>Assunto</th>
         <th>Mensagem</th>   
-        <tr>
+        </tr>
       ${generateTableLines(formList)}
-    </table > `
+    </table > `;
 }
 
 function generateTableLines(formList) {
-  return formList.map((message) => {
-    return `
-    </tr>
+  return formList
+    .map((message) => {
+      return `
+    <tr>
       <td>${message.name}</td>
       <td>${message.email}</td>
       <td>${message.subject}</td>
       <td>${message.message}</td>
     </tr>
     `;
-  }).join('')
+    })
+    .join('');
 }
 
-
-generateTable()
+generateTable();
